@@ -14,11 +14,5 @@ submit.onclick = function(){
 	entry.appendChild(document.createTextNode(task));
 	ol.appendChild(entry);
 
+	};
 };
-
-var hello = document.getElementById('checkbox')
-hello.onclick = function(){
-	alert('hello')
-};
-
-}
